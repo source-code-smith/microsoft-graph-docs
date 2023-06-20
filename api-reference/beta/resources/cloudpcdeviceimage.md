@@ -60,6 +60,12 @@ Represents the image resource on a Cloud PC.
 |sourceImageInvalid|The source image is not valid for provisioning a Windows VM with it.|
 |sourceImageNotGeneralized|The uploaded image hasn’t been generalized. Reupload the image after running the sysprep/generalize command. To learn more, see [Remove machine specific information by generalizing a VM before creating an image](/azure/virtual-machines/generalize).|
 |unknownFutureValue|Evolvable enumeration sentinel value. Do not use.|
+|vmAlreadyAzureAdJoined| The virtual machine (VM) which is used to generate a source image for creating device image has already been Azure Active Directory joined. So, validation process will block create device image with such source image. |
+|paidSourceImageNotSupport| This source image is built from another paid image from Azure marketplace and is not supported, please use another source to proceed.|
+|sourceImageNotSupportCustomizeVMName| There's a computer name setting issue on the resultant generalized image. It's not able to customize VM name with the provided image.|
+|sourceImageSizeExceedsLimitation| Customer upload source image size exceeds SIG (Shared Image Gallery) limitation, which will cause image creation failure.|
+
+
 
 ### cloudPcDeviceImageOsStatus values
 
