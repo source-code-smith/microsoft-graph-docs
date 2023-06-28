@@ -59,4 +59,8 @@ Connect-MgGraph -Environment USGov -ClientId 'YOUR_CLIENT_ID' `
 
 :::code language="go" source="./snippets/go/src/snippets/national_clouds.go" id="NationalCloudSnippet":::
 
+### [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/NationalClouds.php" id="NationalCloudSnippet":::
+
 ---
