@@ -28,6 +28,10 @@ The Microsoft Graph SDK client configures a default set of middleware that allow
 
 :::code language="go" source="./snippets/go/src/snippets/custom_clients.go" id="ChaosHandlerSnippet":::
 
+## [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/CustomClients.php" id="ChaosHandlerSnippet":::
+
 ## [Python](#tab/Python)
 
 [!INCLUDE [python-sdk-preview](../../includes/python-sdk-preview.md)]
@@ -85,6 +89,10 @@ Some environments require client applications to use a HTTP proxy before they ca
 :::code language="go" source="./snippets/go/src/snippets/custom_clients.go" id="ImportSnippet":::
 
 :::code language="go" source="./snippets/go/src/snippets/custom_clients.go" id="ProxySnippet":::
+
+## [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/CustomClients.php" id="ProxySnippet":::
 
 ## [Python](#tab/Python)
 
