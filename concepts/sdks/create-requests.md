@@ -37,6 +37,10 @@ To read information from Microsoft Graph, you first need to create a request obj
 
 :::code language="go" source="./snippets/go/src/snippets/create_requests.go" id="ReadRequestSnippet":::
 
+# [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/CreateRequests.php" id="ReadRequestSnippet":::
+
 # [Python](#tab/Python)
 
 [!INCLUDE [python-sdk-preview](../../includes/python-sdk-preview.md)]
@@ -69,6 +73,10 @@ When retrieving an entity, not all properties are automatically retrieved; somet
 # [Go](#tab/Go)
 
 :::code language="go" source="./snippets/go/src/snippets/create_requests.go" id="SelectRequestSnippet":::
+
+# [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/CreateRequests.php" id="SelectRequestSnippet":::
 
 # [Python](#tab/Python)
 
@@ -104,6 +112,10 @@ Retrieving a list of entities is similar to retrieving a single entity except th
 
 :::code language="go" source="./snippets/go/src/snippets/create_requests.go" id="ListRequestSnippet":::
 
+# [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/CreateRequests.php" id="ListRequestSnippet":::
+
 # [Python](#tab/Python)
 
 [!INCLUDE [python-sdk-preview](../../includes/python-sdk-preview.md)]
@@ -138,6 +150,10 @@ For SDKs that support a fluent style, collections of entities can be accessed us
 
 :::code language="go" source="./snippets/go/src/snippets/create_requests.go" id="ItemByIdRequestSnippet":::
 
+# [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/CreateRequests.php" id="ItemByIdRequestSnippet":::
+
 # [Python](#tab/Python)
 
 [!INCLUDE [python-sdk-preview](../../includes/python-sdk-preview.md)]
@@ -169,6 +185,10 @@ You can use the `$expand` filter to request a related entity, or collection of e
 # [Go](#tab/Go)
 
 :::code language="go" source="./snippets/go/src/snippets/create_requests.go" id="ExpandRequestSnippet":::
+
+# [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/CreateRequests.php" id="ExpandRequestSnippet":::
 
 # [Python](#tab/Python)
 
@@ -202,6 +222,10 @@ Delete requests are constructed in the same way as requests to retrieve an entit
 
 :::code language="go" source="./snippets/go/src/snippets/create_requests.go" id="DeleteRequestSnippet":::
 
+# [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/CreateRequests.php" id="DeleteRequestSnippet":::
+
 # [Python](#tab/Python)
 
 [!INCLUDE [python-sdk-preview](../../includes/python-sdk-preview.md)]
@@ -233,6 +257,10 @@ For SDKs that support a fluent style, new items can be added to collections with
 # [Go](#tab/Go)
 
 :::code language="go" source="./snippets/go/src/snippets/create_requests.go" id="CreateRequestSnippet":::
+
+# [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/CreateRequests.php" id="CreateRequestSnippet":::
 
 # [Python](#tab/Python)
 
@@ -266,6 +294,10 @@ Most updates in Microsoft Graph are performed using a `PATCH` method and therefo
 
 :::code language="go" source="./snippets/go/src/snippets/create_requests.go" id="UpdateRequestSnippet":::
 
+# [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/CreateRequests.php" id="UpdateRequestSnippet":::
+
 # [Python](#tab/Python)
 
 [!INCLUDE [python-sdk-preview](../../includes/python-sdk-preview.md)]
@@ -298,6 +330,10 @@ You can use a `Header()` function to attach custom headers to a request. For Pow
 
 :::code language="go" source="./snippets/go/src/snippets/create_requests.go" id="HeadersRequestSnippet":::
 
+# [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/CreateRequests.php" id="HeadersRequestSnippet":::
+
 # [Python](#tab/Python)
 
 [!INCLUDE [python-sdk-preview](../../includes/python-sdk-preview.md)]
@@ -329,6 +365,10 @@ For SDKs that support a fluent style, you can provide custom query parameter val
 # [Go](#tab/Go)
 
 :::code language="go" source="./snippets/go/src/snippets/create_requests.go" id="QueryParametersRequestSnippet":::
+
+# [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/CreateRequests.php" id="QueryParametersRequestSnippet":::
 
 # [Python](#tab/Python)
 
