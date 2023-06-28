@@ -43,6 +43,10 @@ The following example shows iterating over all the messages in a user's mailbox.
 
 :::code language="go" source="./snippets/go/src/snippets/paging.go" id="PagingSnippet":::
 
+### [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/Paging.php" id="PagingSnippet":::
+
 ---
 
 ## Stopping and resuming the iteration
@@ -69,6 +73,10 @@ Some scenarios require stopping the iteration process in order to perform other 
 :::code language="go" source="./snippets/go/src/snippets/paging.go" id="ImportSnippet":::
 
 :::code language="go" source="./snippets/go/src/snippets/paging.go" id="ResumePagingSnippet":::
+
+### [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/Paging.php" id="ResumePagingSnippet":::
 
 ---
 <!-- markdownlint-enable MD024 -->
