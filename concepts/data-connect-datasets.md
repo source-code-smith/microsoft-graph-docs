@@ -110,7 +110,7 @@ Sinks are the output location that Azure Synapse or Azure Data Factory uses to p
 
 - [Azure Data Lake Storage Gen1](/azure/data-lake-store/data-lake-store-overview)
 - [Azure Data Lake Storage Gen2](/azure/storage/blobs/data-lake-storage-introduction)
-- [Azure Storage Blob](/azure/storage/blobs/storage-blobs-overview)
+- [Azure Storage Blob](/azure/storage/blobs/storage-blobs-overview) (only supported with Copy Data activity)
 - [Azure SQL DB](https://azure.microsoft.com/products/azure-sql/database/?ef_id=_k_790773b85b8d1e4ef64317867aeee8a0_k_&OCID=AIDcmm5edswduu_SEM__k_790773b85b8d1e4ef64317867aeee8a0_k_&msclkid=790773b85b8d1e4ef64317867aeee8a0) (mapping data flows only)
 
 The following characteristics apply to sinks:
