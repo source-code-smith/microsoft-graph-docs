@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc groups list --filter ""startswith(displayName, 'a')&`$count=true&`$top=1&`$orderby=displayName"" --consistency-level eventual
+mgc groups list --filter "startswith(displayName, 'a')&`$count=true&`$top=1&`$orderby=displayName" --consistency-level eventual
 
 ```

@@ -4,6 +4,6 @@ description: "Automatically generated file. DO NOT MODIFY"
 
 ```cli
 
-mgc service-principals list --filter "displayName eq 'Microsoft Graph'" --select id,displayName,appId,oauth2PermissionScopes
+mgc service-principals list --filter displayName eq 'Microsoft Graph' --select id,displayName,appId,oauth2PermissionScopes
 
 ```
