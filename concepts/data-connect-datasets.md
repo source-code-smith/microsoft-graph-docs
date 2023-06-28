@@ -134,7 +134,7 @@ The following table indicates the areas that are supported for the corresponding
 | ---- | ------------- | ------------------------------ |
 | Output data formats supported | JSON | JSON, Parquet  |
 | Data transformation (normalization/flattening/etc.)  | Requires additional transformation step in the ADF/Synapse pipeline | Supports inline transformations |
-| Supported data sinks  | ADLS gen2, Azure Blob  | ADLS gen2, Azure Blob, Azure SQL DB  |
+| Supported data sinks  | ADLS gen2, Azure Blob  | ADLS gen2, Azure SQL DB  |
 | Azure VNET IR   | Not supported | Supported |
 
 ## See also
