@@ -25,6 +25,10 @@ A number of entities in Microsoft Graph support [resumable file uploads](/graph/
 
 :::code language="java" source="./snippets/java/app/src/main/java/snippets/LargeFileUpload.java" id="LargeFileUploadSnippet":::
 
+## [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/LargeFileUpload.php" id="LargeFileUploadSnippet":::
+
 ---
 
 ## Resuming a file upload
@@ -44,6 +48,10 @@ The Microsoft Graph SDKs support [resuming in-progress uploads](/graph/api/drive
 > [!NOTE]
 > The Java SDK does not currently support resuming in-progress downloads.
 
+## [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/LargeFileUpload.php" id="ResumeSnippet":::
+
 ---
 
 ## Upload large attachment to Outlook message
@@ -59,6 +67,10 @@ The Microsoft Graph SDKs support [resuming in-progress uploads](/graph/api/drive
 ### [Java](#tab/java)
 
 :::code language="java" source="./snippets/java/app/src/main/java/snippets/LargeFileUpload.java" id="UploadAttachmentSnippet":::
+
+## [PHP](#tab/php)
+
+:::code language="php" source="./snippets/php/snippets/LargeFileUpload.php" id="UploadAttachmentSnippet":::
 
 ---
 
