@@ -91,8 +91,11 @@ GET https://graph.microsoft.com/v1.0/identityProtection/servicePrincipalRiskDete
 [!INCLUDE [sample-code](../includes/snippets/php/list-serviceprincipalriskdetection-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/list-serviceprincipalriskdetection-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 #### Response
 
@@ -181,8 +184,11 @@ GET https://graph.microsoft.com/v1.0/identityProtection/servicePrincipalRiskDete
 [!INCLUDE [sample-code](../includes/snippets/php/list-filter-serviceprincipalriskdetection-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/list-filter-serviceprincipalriskdetection-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 #### Response
 The following is an example of the response.

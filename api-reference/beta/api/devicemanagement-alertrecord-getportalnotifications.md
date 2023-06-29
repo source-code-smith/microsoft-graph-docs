@@ -90,8 +90,11 @@ GET https://graph.microsoft.com/beta/deviceManagement/monitoring/alertRecords/ge
 [!INCLUDE [sample-code](../includes/snippets/php/alertrecordthisgetportalnotifications-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/alertrecordthisgetportalnotifications-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 ### Response
 

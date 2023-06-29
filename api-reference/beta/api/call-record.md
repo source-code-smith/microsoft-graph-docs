@@ -1,7 +1,7 @@
 ---
 title: "call: recordResponse"
 description: "Record a short audio response from the caller. This is useful if the bot wants to capture a voice response from the caller following a prompt."
-author: "mkhribech"
+author: "rahulva-msft"
 ms.localizationpriority: medium
 ms.prod: "cloud-communications"
 doc_type: apiPageType
@@ -130,8 +130,11 @@ Content-Length: 394
 [!INCLUDE [sample-code](../includes/snippets/php/call-recordresponse-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/call-recordresponse-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 ##### Response
 The following example shows the response.

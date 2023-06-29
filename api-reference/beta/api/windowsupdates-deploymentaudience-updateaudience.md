@@ -40,7 +40,7 @@ One of the following permissions is required to call this API. To learn more, in
 }
 -->
 ``` http
-POST /admin/windows/updates/deploymentAudiences/{deploymentAudienceId}]/updateAudience
+POST /admin/windows/updates/deploymentAudiences/{deploymentAudienceId}/updateAudience
 ```
 
 ## Request headers
@@ -108,17 +108,15 @@ Content-Type: application/json
 [!INCLUDE [sample-code](../includes/snippets/go/deploymentaudience-updateaudience-go-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/deploymentaudience-updateaudience-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [PHP](#tab/php)
 [!INCLUDE [sample-code](../includes/snippets/php/deploymentaudience-updateaudience-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/deploymentaudience-updateaudience-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
 ---
-
-
 
 ### Response
 

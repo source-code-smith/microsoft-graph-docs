@@ -92,8 +92,11 @@ POST https://graph.microsoft.com/beta/domains/contoso.com/promote
 [!INCLUDE [sample-code](../includes/snippets/php/domain-promote-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/domain-promote-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 ### Response
 

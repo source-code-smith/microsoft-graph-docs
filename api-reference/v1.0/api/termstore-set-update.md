@@ -30,7 +30,7 @@ One of the following permissions is required to call this API. To learn more, in
 -->
 
 ``` http
-PATCH sites/{site-id}/termStore/sets/{set-id}
+PATCH /sites/{site-id}/termStore/sets/{set-id}
 ```
 
 ## Request headers
@@ -101,8 +101,11 @@ Content-Type: application/json
 [!INCLUDE [sample-code](../includes/snippets/php/update-set-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/update-set-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 ### Response
 

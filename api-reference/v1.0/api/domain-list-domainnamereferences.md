@@ -95,8 +95,11 @@ GET https://graph.microsoft.com/v1.0/domains/contoso.com/domainNameReferences
 [!INCLUDE [sample-code](../includes/snippets/php/get-domainnamereferences-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/get-domainnamereferences-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 ##### Response
 >**Note:** The response object shown here might be shortened for readability.

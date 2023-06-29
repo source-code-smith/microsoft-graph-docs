@@ -81,7 +81,6 @@ The following is an example of a request.
 ```http
 PATCH https://graph.microsoft.com/beta/sites/{sitesId}/pages/{sitePageId}
 Content-Type: application/json
-Content-length: 650
 
 {
   "@odata.type": "#microsoft.graph.sitePage",
@@ -115,8 +114,11 @@ Content-length: 650
 [!INCLUDE [sample-code](../includes/snippets/php/update-sitepage-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/update-sitepage-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 ### Response
 

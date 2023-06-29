@@ -78,8 +78,11 @@ Content-type: application/json
 [!INCLUDE [sample-code](../includes/snippets/php/tutorial-riskdetection-create-user-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/tutorial-riskdetection-create-user-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 ### Response
 <!-- {
@@ -152,8 +155,11 @@ GET https://graph.microsoft.com/v1.0/identityProtection/riskDetections?$filter=u
 [!INCLUDE [sample-code](../includes/snippets/php/tutorial-riskdetection-get-riskdetections-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/tutorial-riskdetection-get-riskdetections-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 #### Response
 <!-- {
@@ -279,8 +285,11 @@ Content-type: application/json
 [!INCLUDE [sample-code](../includes/snippets/php/tutorial-riskdetection-create-conditionalaccesspolicy-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/tutorial-riskdetection-create-conditionalaccesspolicy-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 #### Response 
 <!-- {
@@ -384,8 +393,11 @@ GET https://graph.microsoft.com/v1.0/identityProtection/riskDetections?$filter=u
 [!INCLUDE [sample-code](../includes/snippets/php/tutorial-riskdetection-get-riskdetections-filter-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/tutorial-riskdetection-get-riskdetections-filter-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 #### Response
 <!-- {
@@ -436,7 +448,7 @@ Instead of providing the opportunity for the user to self-remediate, you can blo
 # [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
-  "name": "tutorial_riskdetection_create_conditionalaccesspolicy"
+  "name": "tutorial_riskdetection_block_user"
 }-->
 ```http
 POST https://graph.microsoft.com/v1.0/identity/conditionalAccess/policies
@@ -469,31 +481,34 @@ Content-type: application/json
 ```
 
 # [C#](#tab/csharp)
-[!INCLUDE [sample-code](../includes/snippets/csharp/tutorial-riskdetection-create-conditionalaccesspolicy-csharp-snippets.md)]
+[!INCLUDE [sample-code](../includes/snippets/csharp/tutorial-riskdetection-block-user-csharp-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [JavaScript](#tab/javascript)
-[!INCLUDE [sample-code](../includes/snippets/javascript/tutorial-riskdetection-create-conditionalaccesspolicy-javascript-snippets.md)]
+[!INCLUDE [sample-code](../includes/snippets/javascript/tutorial-riskdetection-block-user-javascript-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [Java](#tab/java)
-[!INCLUDE [sample-code](../includes/snippets/java/tutorial-riskdetection-create-conditionalaccesspolicy-java-snippets.md)]
+[!INCLUDE [sample-code](../includes/snippets/java/tutorial-riskdetection-block-user-java-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [Go](#tab/go)
-[!INCLUDE [sample-code](../includes/snippets/go/tutorial-riskdetection-create-conditionalaccesspolicy-go-snippets.md)]
+[!INCLUDE [sample-code](../includes/snippets/go/tutorial-riskdetection-block-user-go-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-riskdetection-create-conditionalaccesspolicy-powershell-snippets.md)]
+[!INCLUDE [sample-code](../includes/snippets/powershell/tutorial-riskdetection-block-user-powershell-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 # [PHP](#tab/php)
-[!INCLUDE [sample-code](../includes/snippets/php/tutorial-riskdetection-create-conditionalaccesspolicy-php-snippets.md)]
+[!INCLUDE [sample-code](../includes/snippets/php/tutorial-riskdetection-block-user-php-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/tutorial-riskdetection-block-user-python-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
 ---
-
 
 ### Response
 <!-- {
@@ -601,8 +616,11 @@ Content-Type: application/json
 [!INCLUDE [sample-code](../includes/snippets/php/tutorial-riskdetection-riskyusersdismiss-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/tutorial-riskdetection-riskyusersdismiss-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 #### Response
 <!-- {
@@ -651,8 +669,11 @@ GET https://graph.microsoft.com/v1.0/identityProtection/riskyUsers?$filter=userD
 [!INCLUDE [sample-code](../includes/snippets/php/tutorial-riskdetection-riskyuserslist-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/tutorial-riskdetection-riskyuserslist-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 #### Response
 <!-- {
@@ -722,8 +743,11 @@ DELETE https://graph.microsoft.com/v1.0/users/4628e7df-dff3-407c-a08f-75f08c0806
 [!INCLUDE [sample-code](../includes/snippets/php/tutorial-riskdetection-delete-user-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/tutorial-riskdetection-delete-user-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 #### Response
 <!-- {
@@ -772,8 +796,11 @@ DELETE https://graph.microsoft.com/v1.0/groups/9ad78153-b1f8-4714-adc1-144572767
 [!INCLUDE [sample-code](../includes/snippets/php/tutorial-riskdetection-delete-group-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/tutorial-riskdetection-delete-group-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 #### Response
 <!-- {

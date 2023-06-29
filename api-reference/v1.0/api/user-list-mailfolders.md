@@ -98,6 +98,10 @@ GET https://graph.microsoft.com/v1.0/me/mailFolders
 [!INCLUDE [sample-code](../includes/snippets/php/get-mailfolders-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/get-mailfolders-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
+
 ---
 
 #### Response
@@ -245,8 +249,11 @@ GET https://graph.microsoft.com/beta/me/mailFolders/?includeHiddenFolders=true
 [!INCLUDE [sample-code](../includes/snippets/php/get-hiddenmailfolders-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/get-hiddenmailfolders-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 #### Response
 The following is an example of the response.

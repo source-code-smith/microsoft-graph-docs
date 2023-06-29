@@ -59,7 +59,8 @@ If successful, this call returns a `200 OK` response and a Boolean value that sp
 # [HTTP](#tab/http)
 <!-- {
   "blockType": "request",
-  "name": "domain_promote"
+  "name": "domain_promote",
+  "sampleKeys": ["contoso.com"]
 }-->
 ```http
 POST https://graph.microsoft.com/v1.0/domains/contoso.com/promote
@@ -89,8 +90,11 @@ POST https://graph.microsoft.com/v1.0/domains/contoso.com/promote
 [!INCLUDE [sample-code](../includes/snippets/php/domain-promote-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
----
+# [Python](#tab/python)
+[!INCLUDE [sample-code](../includes/snippets/python/domain-promote-python-snippets.md)]
+[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
+---
 
 ### Response
 
