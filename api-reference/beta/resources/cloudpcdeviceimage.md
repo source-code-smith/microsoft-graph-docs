@@ -39,7 +39,7 @@ Represents the image resource on a Cloud PC.
 |osStatus|[cloudPcDeviceImageOsStatus](#cloudpcdeviceimageosstatus-values)|The OS status of this image. Possible values are: `supported`, `supportedWithWarning`, `unknownFutureValue`.|
 |sourceImageResourceId|String|The ID of the source image resource on Azure. Required format: `/subscriptions/{subscription-id}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/images/{imageName}`.|
 |status|[cloudPcDeviceImageStatus](#cloudpcdeviceimagestatus-values)|The status of the image on Cloud PC. Possible values are: `pending`, `ready`, `failed`.|
-|statusDetails|cloudPcDeviceImageStatusDetails|The details of the status of the image that indicates why the upload failed, if applicable. Possible values are: `internalServerError`, `sourceImageNotFound`, `osVersionNotSupported`, `sourceImageInvalid`, and `sourceImageNotGeneralized`.|
+|statusDetails|cloudPcDeviceImageStatusDetails|The details of the status of the image that indicates why the upload failed, if applicable. Possible values are: `internalServerError`, `sourceImageNotFound`, `osVersionNotSupported`, `sourceImageInvalid`, `sourceImageNotGeneralized`, `vmAlreadyAzureAdJoined`, `paidSourceImageNotSupport`, `sourceImageNotSupportCustomizeVMName` and `sourceImageSizeExceedsLimitation`.|
 |version|String|The image version. For example, `0.0.1` and `1.5.13`.|
 
 ### cloudPcDeviceImageStatus values
