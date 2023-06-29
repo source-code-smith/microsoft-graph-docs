@@ -17,10 +17,6 @@ A number of entities in Microsoft Graph support [resumable file uploads](/graph/
 
 :::code language="csharp" source="./snippets/dotnet/src/SdkSnippets/Snippets/LargeFileUpload.cs" id="LargeFileUploadSnippet":::
 
-## [TypeScript](#tab/typescript)
-
-:::code language="typescript" source="./snippets/typescript/src/snippets/largeFileUpload.ts" id="LargeFileUploadSnippet":::
-
 ## [Java](#tab/java)
 
 :::code language="java" source="./snippets/java/app/src/main/java/snippets/LargeFileUpload.java" id="LargeFileUploadSnippet":::
@@ -28,6 +24,10 @@ A number of entities in Microsoft Graph support [resumable file uploads](/graph/
 ## [PHP](#tab/php)
 
 :::code language="php" source="./snippets/php/snippets/LargeFileUpload.php" id="LargeFileUploadSnippet":::
+
+## [TypeScript](#tab/typescript)
+
+:::code language="typescript" source="./snippets/typescript/src/snippets/largeFileUpload.ts" id="LargeFileUploadSnippet":::
 
 ---
 
@@ -39,10 +39,6 @@ The Microsoft Graph SDKs support [resuming in-progress uploads](/graph/api/drive
 
 :::code language="csharp" source="./snippets/dotnet/src/SdkSnippets/Snippets/LargeFileUpload.cs" id="ResumeSnippet":::
 
-### [TypeScript](#tab/typescript)
-
-:::code language="typescript" source="./snippets/typescript/src/snippets/largeFileUpload.ts" id="ResumeSnippet":::
-
 ### [Java](#tab/java)
 
 > [!NOTE]
@@ -52,6 +48,10 @@ The Microsoft Graph SDKs support [resuming in-progress uploads](/graph/api/drive
 
 :::code language="php" source="./snippets/php/snippets/LargeFileUpload.php" id="ResumeSnippet":::
 
+### [TypeScript](#tab/typescript)
+
+:::code language="typescript" source="./snippets/typescript/src/snippets/largeFileUpload.ts" id="ResumeSnippet":::
+
 ---
 
 ## Upload large attachment to Outlook message
@@ -60,10 +60,6 @@ The Microsoft Graph SDKs support [resuming in-progress uploads](/graph/api/drive
 
 :::code language="csharp" source="./snippets/dotnet/src/SdkSnippets/Snippets/LargeFileUpload.cs" id="UploadAttachmentSnippet":::
 
-### [TypeScript](#tab/typescript)
-
-:::code language="typescript" source="./snippets/typescript/src/snippets/largeFileUpload.ts" id="UploadAttachmentSnippet":::
-
 ### [Java](#tab/java)
 
 :::code language="java" source="./snippets/java/app/src/main/java/snippets/LargeFileUpload.java" id="UploadAttachmentSnippet":::
@@ -71,6 +67,10 @@ The Microsoft Graph SDKs support [resuming in-progress uploads](/graph/api/drive
 ## [PHP](#tab/php)
 
 :::code language="php" source="./snippets/php/snippets/LargeFileUpload.php" id="UploadAttachmentSnippet":::
+
+### [TypeScript](#tab/typescript)
+
+:::code language="typescript" source="./snippets/typescript/src/snippets/largeFileUpload.ts" id="UploadAttachmentSnippet":::
 
 ---
 
