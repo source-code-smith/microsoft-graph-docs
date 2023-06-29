@@ -219,25 +219,25 @@ items:
           - name: Tutorials
             displayName: change notifications, rich notifications, basic notifications, subscriptions, webhooks, Azure Event Hubs, Azure Event Grids
             items:
-            - name: Notifications for cloud printing
-              href: universal-print-webhook-notifications.md
-            - name: Notifications for Microsoft Teams resources
-              items:
-                - name: Notification types and payloads
-                  href: teams-change-notification-in-microsoft-teams-overview.md
-                  displayName: change notifications, Teams, Microsoft Teams
-                - name: Teams and channels
-                  href: teams-changenotifications-team-and-channel.md
-                - name: Team and channel membership
-                  href: teams-changenotifications-teamMembership.md
-                - name: Chat and channel messages
-                  href: teams-changenotifications-chatmessage.md
-                - name: Chat
-                  href: teams-changenotifications-chat.md
-                - name: Chat membership
-                  href: teams-changenotifications-chatMembership.md
-            - name: Notifications for Outlook resources
-              href: outlook-change-notifications-overview.md
+              - name: Notifications for cloud printing
+                href: universal-print-webhook-notifications.md
+              - name: Notifications for Microsoft Teams resources
+                items:
+                  - name: Notification types and payloads
+                    href: teams-change-notification-in-microsoft-teams-overview.md
+                    displayName: change notifications, Teams, Microsoft Teams
+                  - name: Teams and channels
+                    href: teams-changenotifications-team-and-channel.md
+                  - name: Team and channel membership
+                    href: teams-changenotifications-teammembership.md
+                  - name: Chat and channel messages
+                    href: teams-changenotifications-chatmessage.md
+                  - name: Chat
+                    href: teams-changenotifications-chat.md
+                  - name: Chat membership
+                    href: teams-changenotifications-chatmembership.md
+              - name: Notifications for Outlook resources
+                href: outlook-change-notifications-overview.md
       - name: Change tracking
         items:
           - name: Overview
@@ -480,7 +480,7 @@ items:
                   - name: Review access to a security group
                     href: tutorial-accessreviews-securitygroup.md
                   - name: Review access for guest users
-                    href: tutorial-accessreviews-M365group.md
+                    href: tutorial-accessreviews-m365group.md
                   - name: Review access to privileged roles
                     href: tutorial-accessreviews-roleassignments.md
                   - name: Configure the scope
@@ -632,7 +632,7 @@ items:
           - name: Search multiple entity types
             href: search-concept-interleaving.md
           - name: Search with multiple requests
-            href: search-concept-multipleRequest.md
+            href: search-concept-multiplerequest.md
           - name: Search Outlook events
             href: search-concept-events.md
           - name: Search Outlook messages
