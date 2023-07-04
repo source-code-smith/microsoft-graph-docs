@@ -4,11 +4,22 @@ metadata:
 items:
   - name: Microsoft Graph documentation
     href: index.yml
-  - name: Explore
+  - name: Accessing data at scale
     expanded: true
     items:
       - name: Overview of Microsoft Graph
         href: overview.md
+      - name: Simplified onboarding experience
+        expanded: true
+        items: 
+          - name: Onboarding experience overview
+            href: onboarding-experience-overview.md
+          - name: App registration
+            href: app-registration.md 
+          - name: App consent
+            href: app-consent.md 
+          - name: Existing customer migration
+            href: existing-customer-migration.md
       - name: Services in Microsoft Graph
         href: overview-major-services.md
       - name: What's new
