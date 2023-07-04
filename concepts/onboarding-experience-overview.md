@@ -1,12 +1,12 @@
 ---
 title: "Microsoft Graph onboarding experience overview"
 description: "Presenting customers with an improved overall MGDC onboarding flow, and simplified onboarding experience."
-author: "v-mivenables"
+author: "michaelvenables"
 ms.localizationpriority: high
 ms.custom: scenarios:getting-started
 ---
 
-# Microsoft Graph onboarding experience overview
+# Microsoft Graph onboarding experience
 
 MGDC (Microsoft Graph Data Connect) presents a simplified onboarding experience for customers—featuring improved app registration, a fresh app authorization experience, and precise guidance for migrating existing customers to the new experience. 
 
