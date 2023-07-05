@@ -54,6 +54,7 @@ The following table shows the parameters that can be used with this action.
 |outputName|String| Name of the export. Required. |
 |azureBlobContainer (deprecated) |String| When you export to your own Azure storage account, this is the container URL. The **azureBlobContainer** property is deprecated and will stop returning data on April 30th, 2023. |
 |azureBlobToken (deprecated) |String| When you export to your own Azure storage account, SAS token for the container URL. The **azureBlobToken** property is deprecated and will stop returning data on April 30th, 2023. |
+|expandOption|String| Options that control expansion of the reviewset query. Possible values are: `none`, `all`.|
 
 ## Response
 
@@ -78,7 +79,8 @@ Content-Type: application/json
     "outputName": "Export reviewset query via API",
     "description": "Export for the Contoso investigation 2",
     "exportOptions": "originalFiles,fileInfo,tags",
-    "exportStructure": "directory"
+    "exportStructure": "directory",
+    "exportOption":"all"
 }
 ```
 

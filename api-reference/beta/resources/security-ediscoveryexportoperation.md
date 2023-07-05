@@ -40,7 +40,8 @@ Inherits from [caseOperation](../resources/security-caseoperation.md).
 |status|[microsoft.graph.security.caseOperationStatus](../resources/security-caseoperation.md#caseoperationstatus-values)| The status of the case operation. Possible values are: `notStarted`, `submissionFailed`, `running`, `succeeded`, `partiallySucceeded`, `failed`.|
 |azureBlobContainer (deprecated)|String| The name of the Azure storage location where the export is stored. This only applies to exports stored in your own Azure storage location. The **azureBlobContainer** property is deprecated and will stop returning data on April 30th, 2023. |
 |azureBlobToken (deprecated)|String| The SAS token for the Azure storage location.  This only applies to exports stored in your own Azure storage location. The **azureBlobToken** property is deprecated and will stop returning data on April 30th, 2023. |
-|outputFolderId (deprecated) | String | The output folder ID. The **outputFolderId** property is deprecated and will stop returning data on April 30th, 2023.
+|outputFolderId (deprecated) | String | The output folder ID. The **outputFolderId** property is deprecated and will stop returning data on April 30th, 2023.|
+|expandOption| String | This option will allow to expand the associated review set of the query. For more details, see [reviewSet: export](../api/security-ediscoveryreviewsetquery-export.md). Possible values are: `none`, `all`. Default value, if not provided is none.|
 
 ### exportOptions values
 
@@ -51,6 +52,14 @@ Inherits from [caseOperation](../resources/security-caseoperation.md).
 |pdfReplacement|Replace original file with PDF version when available.|
 |tags|Include tag information in fileInfo.|
 |fileInfo (deprecated) |Include metadata of original files in a load file. The `fileInfo` member is deprecated and will stop returning data on April 30th, 2023. Going forward, the summary and load file are always included. |
+
+### expandOption values
+
+|Member|Description|
+|:----|-----------|
+|all|While exporting, expand the review set to include all the associated items in terms of the familyId and conversationId.|
+|none|While exporting,it will return only queried review set items.|
+
 
 ### exportFileStructure values
 
@@ -99,6 +108,7 @@ The following is a JSON representation of the resource.
   "outputFolderId": "String",
   "outputName": "String",
   "percentProgress": "Int32",
+  "expandOption":"String",
   "resultInfo": {
     "@odata.type": "microsoft.graph.resultInfo"
   },
