@@ -20,11 +20,11 @@ Additionally, you can use Data Connect to enable machine learning scenarios for 
 
 ## Get started
 
-In this tutorial, you'll create your first single-tenant Data Connect application. The following is a general flow that explains the Data Connect onboarding.
+In this tutorial, you learn how to create your first single-tenant Data Connect application. The following is a general flow that explains the Data Connect onboarding.
 
-![A screenshot that explains the onboarding flow.](../concepts/images/data-connect-overview-flowchart.png)
+![A screenshot that explains the Data Connect onboarding flow.](../concepts/images/data-connect-overview-flowchart.png)
 
->**Note** For existing tenants who already have Microsoft Graph Data Connect enabled and want to use this tutorial: please notify your global administrator toggle Microsoft Graph Data Connect off and then on again in the [admin portal](https://admin.microsoft.com/adminportal/home#/Settings/Services/:/Settings/L1/O365DataPlan) to be able to follow this tutorial flow. For new customers who have not yet toggled Microsoft Graph Data Connect on, please follow the steps in this tutorial below. No extra action is required from you.
+>**Note** For existing tenants that already have Microsoft Graph Data Connect enabled and want to use this tutorial, notify your Global Administrator to toggle Microsoft Graph Data Connect off and then on again in the [admin portal](https://admin.microsoft.com/adminportal/home#/Settings/Services/:/Settings/L1/O365DataPlan) to be able to follow this tutorial flow. For new customers who have not yet toggled Microsoft Graph Data Connect on, no extra action is required and you can continue with the following steps.
 
 1. **Admin enables Data Connect:** The first step in onboarding is for your global administrator to [enable Data Connect](https://admin.microsoft.com/adminportal/home#/Settings/Services/:/Settings/L1/O365DataPlan).
 
