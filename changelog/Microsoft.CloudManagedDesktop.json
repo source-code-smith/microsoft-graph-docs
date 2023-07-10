@@ -1,5 +1,31 @@
 {
-    "changelog": [
+    "changelog": [        
+    {
+        "ChangeList": [
+            {
+                "Id": "d3e90df9-c55b-4165-bf94-1a577edf411c",
+                "ApiChange": "Member",
+                "ChangedApiName": "awaitingAdminAction",
+                "ChangeType": "Addition",
+                "Description": "Added the `awaitingAdminAction` member to the **actionState** enumeration.",
+                "Target": "actionState"
+            },
+            {
+                "Id": "d3e90df9-c55b-4165-bf94-1a577edf411c",
+                "ApiChange": "Member",
+                "ChangedApiName": "unknownFutureValue",
+                "ChangeType": "Addition",
+                "Description": "Added the `unknownFutureValue` member to the **actionState** enumeration.",
+                "Target": "actionState"
+            }
+        ],
+        "Id": "d3e90df9-c55b-4165-bf94-1a577edf411c",
+        "Cloud": "prd",
+        "Version": "beta",
+        "CreatedDateTime": "2023-07-10T07:46:26.039Z",
+        "WorkloadArea": "Device and app management",
+        "SubArea": "Cloud PC"
+    },
     {
             "ChangeList": [
                 {

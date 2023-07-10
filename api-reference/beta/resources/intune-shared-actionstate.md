@@ -27,3 +27,5 @@ State of the action on the device
 |done|4|Action completed without errors.|
 |failed|5|Action failed|
 |notSupported|6|Action is not supported.|
+|awaitingAdminAction|7|Indicates that the action is pending on IT admin operation, applicable actions include `resize`.|
+|unknownFutureValue|8|Evolvable enumeration sentinel value. Do not use.|
