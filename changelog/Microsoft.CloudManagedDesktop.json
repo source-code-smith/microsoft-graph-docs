@@ -33,7 +33,7 @@
                 "ChangeType": "Addition",
                 "Description": "Added the `moveRegion` member to the **cloudPcRemoteActionName** enumeration.",
                 "Target": "cloudPcRemoteActionName"
-            },
+            }
         ],
         "Id": "94d6e76f-44d4-4830-8dbe-d77c5888fab0",
         "Cloud": "prd",
