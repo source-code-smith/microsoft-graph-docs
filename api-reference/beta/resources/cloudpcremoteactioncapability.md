@@ -20,7 +20,7 @@ Represents the action name and capability of a supported Cloud PC remote action.
 |Property|Type|Description|
 |:---|:---|:---|
 |actionCapability|[actionCapability](#actioncapability-values)|Indicates the state of the supported action capability to perform a Cloud PC remote action. Possible values are: `enabled`, `disabled`. Default value is `enabled`.|
-|actionName|[cloudPcRemoteActionName](#cloudpcremoteactionname-values)|The name of the supported Cloud PC remote action. Possible values are: `unknown`, `restart`, `rename`, `restore`, `resize`, `reprovision`, `troubleShoot`, `changeUserAccountType`, `placeUnderReview`. Default value is `unknown`.|
+|actionName|[cloudPcRemoteActionName](#cloudpcremoteactionname-values)|The name of the supported Cloud PC remote action. Possible values are: `unknown`, `restart`, `rename`, `restore`, `resize`, `reprovision`, `troubleShoot`, `changeUserAccountType`, `placeUnderReview`, `unknownFutureValue`, `createSnapshot`, `powerOn`, `powerOff` and `moveRegion`. Default value is `unknown`.|
 
 ### cloudPcRemoteActionName values
 
@@ -35,6 +35,10 @@ Represents the action name and capability of a supported Cloud PC remote action.
 |changeUserAccountType|Indicates the remote action name as `changeUserAccountType`. Use this action to change the account type of the user of a Cloud PC. For example, from a standard user to an administrator.|
 |troubleshoot|Indicates the remote action name as `troubleshoot`. Use this action to check the health status of the Cloud PC and the session host.|
 |placeUnderReview|Indicates the remote action name as `placeUnderReview`. Use this action to set the Cloud PC to review state or set it back, when the Cloud PC is considered suspicious.|
+|createSnapshot|Indicates that the remote action name is createSnapshot. IT admin can trigger this action to create Cloud PC's snapshot.|
+|powerOn|Indicates that the remote action name is powerOn. IT admin can trigger this action to power on Cloud PC.|
+|powerOff|Indicates that the remote action name is powerOff. IT admin can trigger this action to power off Cloud PC.|
+|moveRegion|Indicates that the remote action name is move. IT admin can trigger this action to move region of Cloud PC.|
 |unknownFutureValue|Evolvable enumeration sentinel value. Do not use.|
 
 #### actionCapability values

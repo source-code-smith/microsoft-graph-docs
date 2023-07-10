@@ -1,6 +1,48 @@
 {
     "changelog": [
     {
+        "ChangeList": [
+            {
+                "Id": "94d6e76f-44d4-4830-8dbe-d77c5888fab0",
+                "ApiChange": "Member",
+                "ChangedApiName": "createSnapshot",
+                "ChangeType": "Addition",
+                "Description": "Added the `createSnapshot` member to the **cloudPcRemoteActionName** enumeration.",
+                "Target": "cloudPcRemoteActionName"
+            },
+            {
+                "Id": "94d6e76f-44d4-4830-8dbe-d77c5888fab0",
+                "ApiChange": "Member",
+                "ChangedApiName": "powerOn",
+                "ChangeType": "Addition",
+                "Description": "Added the `powerOn` member to the **cloudPcRemoteActionName** enumeration.",
+                "Target": "cloudPcRemoteActionName"
+            },
+            {
+                "Id": "94d6e76f-44d4-4830-8dbe-d77c5888fab0",
+                "ApiChange": "Member",
+                "ChangedApiName": "powerOff",
+                "ChangeType": "Addition",
+                "Description": "Added the `powerOff` member to the **cloudPcRemoteActionName** enumeration.",
+                "Target": "cloudPcRemoteActionName"
+            },
+            {
+                "Id": "94d6e76f-44d4-4830-8dbe-d77c5888fab0",
+                "ApiChange": "Member",
+                "ChangedApiName": "moveRegion",
+                "ChangeType": "Addition",
+                "Description": "Added the `moveRegion` member to the **cloudPcRemoteActionName** enumeration.",
+                "Target": "cloudPcRemoteActionName"
+            },
+        ],
+        "Id": "94d6e76f-44d4-4830-8dbe-d77c5888fab0",
+        "Cloud": "prd",
+        "Version": "beta",
+        "CreatedDateTime": "2023-07-10T07:46:26.039Z",
+        "WorkloadArea": "Device and app management",
+        "SubArea": "Cloud PC"
+    },
+    {
             "ChangeList": [
                 {
                     "Id": "0361ec23-60ea-4fd8-a32c-6e7387ab5eeb",
