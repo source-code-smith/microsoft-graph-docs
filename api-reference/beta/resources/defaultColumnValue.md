@@ -1,48 +1,43 @@
 ---
-author: daspek
-description: The defaultColumnValue on a columnDefinition resource specifies the default value for this column.
-ms.date: 09/12/2017
-title: DefaultColumnValue
+author: "daspek"
+description: "Represents the default value for a columnDefinition."
+title: "defaultColumnValue resource type"
 ms.localizationpriority: medium
 doc_type: resourcePageType
-ms.prod: sites-and-lists
+ms.prod: "sites-and-lists"
 ---
 
-# DefaultColumnValue resource type
+# defaultColumnValue resource type
 
 Namespace: microsoft.graph
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-The **defaultColumnValue** on a [columnDefinition](columndefinition.md) resource specifies the default value for this column.
-The default value can either be specified directly or as a formula.
-
-## JSON representation
-
-Here is a JSON representation of a **defaultColumnValue** resource.
-
-<!-- { "blockType": "resource", "@type": "microsoft.graph.defaultColumnValue" } -->
-
-```json
-{
-  "formula": "=[Column1]+[Column2]+[Column3]",
-  "value": "defaultValueString"
-}
-```
+Represents the default value for a [columnDefinition](columndefinition.md). The default value can either be specified directly or as a formula.
 
 ## Properties
 
 | Property    | Type   | Description                                                    |
 | :---------- | :----- | :------------------------------------------------------------- |
-| **formula** | string | The formula used to compute the default value for this column. |
-| **value**   | string | The direct value to use as the default value for this column.  |
+| formula     | String | The formula used to compute the default value for the column.  |
+| value       | String | The direct value to use as the default value for the column.   |
 
-Only one of **formula** or **value** may be specified at a time.
+You can specify either a **formula** or **value** at a time.
 
-SharePoint formulas use a syntax similar to Excel formulas.
-See [Examples of common formulas in SharePoint Lists][SPFormulas] for more information.
+SharePoint formulas use a syntax similar to Excel formulas. For more information, see [Examples of common formulas in SharePoint Lists](https://support.microsoft.com/office/examples-of-common-formulas-in-lists-d81f5f21-2b4e-45ce-b170-bf7ebf6988b3).
 
-[SPFormulas]: https://support.office.com/article/Examples-of-common-formulas-in-SharePoint-Lists-d81f5f21-2b4e-45ce-b170-bf7ebf6988b3
+## JSON representation
+
+The following is a JSON representation of the resource.
+
+<!-- { "blockType": "resource", "@type": "microsoft.graph.defaultColumnValue" } -->
+
+```json
+{
+  "formula": "String",
+  "value": "String"
+}
+```
 
 <!--
 {
@@ -54,3 +49,4 @@ See [Examples of common formulas in SharePoint Lists][SPFormulas] for more infor
   "suppressions": []
 }
 -->
+
