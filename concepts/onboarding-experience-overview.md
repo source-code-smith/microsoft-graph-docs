@@ -10,7 +10,7 @@ ms.custom: scenarios:getting-started
 
 Microsoft Graph Data Connect (Data Connect) has a simplified onboarding experience for customers—featuring an improved app registration process, a fresh app authorization experience, and pointed guidance for migrating existing customers to the new Data Connect experience.
 
-Data Connect is moving from a just-in-time authorization model (that leverages PAM)—to a pre-consent experience decoupled from PAM, in which data movements will be authorized before a pipeline is executed.
+Data Connect is moving from a just-in-time authorization model (that leverages PAM)—to a pre-authorization experience decoupled from PAM, in which data movements will be authorized before a pipeline is executed.
 
 ![Graphic showing the improved onboarding experience for Microsoft Graph Data Connect customers.](images/new-mgdc-onboarding-flow.png)
 
@@ -45,7 +45,7 @@ We'd like everyone to have a more fluid onboarding experience to Data Connect. L
 
 ## Confirming your new tenant experience
 
-If your tenant enabled Data Connect on the Microsoft 365 Admin Center after &lt;date&gt;, your organization is successfully enrolled in the new onboarding experience. Confirm this by requesting someone in your company with a Global Reader or Global Administrator-assigned role to access the Data Connect admin consent portal. If the user is able to access the experience shown below without the highlighted warning, your tenant is making use of the new experience.  
+If your tenant enabled Data Connect on the Microsoft 365 Admin Center after &lt;date&gt;, your organization is successfully enrolled in the new onboarding experience. Confirm this by requesting someone in your company with a Global Reader or Global Administrator-assigned role to access the Data Connect admin authorization portal. If the user is able to access the experience shown below without the highlighted warning, your tenant is making use of the new experience.  
 
 ![The highlighted warning displayed for users if their organization is not using the new tenant experience.](images/M365-admin-center-highlighted-warning.png)
 
