@@ -74,8 +74,8 @@ The data available is from the last 21 days (about three weeks). For example, if
 | BasicDataSet_v0.SharePointGroups_v1 | Contains SharePoint group information, including details about group members.(Formerly known as SharePointGroupsDataset_v0_Preview) | <ul><li> [Sample](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/sampledatasets/BasicDataSet_v0.SharePointGroups_v1.json)</li><li>[Schema](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/datasetschemas/BasicDataSet_v0.SharePointGroups_v1.md)</li></ul>
 
 ### Viva Insights
-| Dataset name | Description | Sample and Schema |
-| --- | --- | --- |
+| Dataset name | Description | Sample and Schema | Billing |
+| --- | --- | --- | --- |
 | VivaInsightsDataset_PersonReport_v1 | Contains Viva Insights metrics. | <ul><li> [Sample](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/sampledatasets/VivaInsightsDataset_v0.json)</li><li>[Schema](https://github.com/microsoftgraph/dataconnect-solutions/blob/main/datasetschemas/VivaInsightsDataSet_v0.md)</li></ul> | Requires Viva Insights license |
 
 ## Regions
