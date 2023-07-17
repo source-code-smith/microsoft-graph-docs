@@ -10425,7 +10425,7 @@ items:
           - name: Reprovision remotely
             href: api/manageddevice-reprovisioncloudpc.md
           - name: Resize remotely
-            href: api/manageddevice-resizecloudpc.md
+            href: api/cloudpc-resize.md
           - name: Restore
             href: api/cloudpc-restore.md
           - name: Restore remotely
