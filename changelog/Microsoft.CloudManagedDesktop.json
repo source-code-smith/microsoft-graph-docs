@@ -1,6 +1,24 @@
 {
     "changelog": [
-    {
+        {
+            "ChangeList": [
+                {
+                    "Id": "ad2fc780-e9d8-4a52-85a5-5463a77b2f20",
+                    "ApiChange": "Method",
+                    "ChangedApiName": "resize",
+                    "ChangeType": "Addition",
+                    "Description": "Added the [resize](https://docs.microsoft.com/en-us/graph/api/cloudpc-resize?view=graph-rest-beta) method to the [Cloud PC](https://docs.microsoft.com/en-us/graph/api/resources/cloudpc?view=graph-rest-beta) resource.",
+                    "Target": "cloudPC"
+                }
+            ],
+            "Id": "ad2fc780-e9d8-4a52-85a5-5463a77b2f20",
+            "Cloud": "Prod",
+            "Version": "beta",
+            "CreatedDateTime": "2023-07-17T06:58:17.7596296Z",
+            "WorkloadArea": "Devices and apps",
+            "SubArea": "Cloud PC"
+        },
+        {
             "ChangeList": [
                 {
                     "Id": "0361ec23-60ea-4fd8-a32c-6e7387ab5eeb",
