@@ -62,6 +62,12 @@ The following is a JSON representation of the resource.
 }
 ```
 
+## Code sample
+
+| Sample name | Description | .NETCore | Node.js | Python |
+|----------------|-----------------|--------------|--------------|
+| App installation | This sample app demonstrates the installation lifecycle for Teams apps which includes create, update, and delete apps. | [View](https://github.com/OfficeDev/Microsoft-Teams-Samples/tree/main/samples/graph-app-installation-lifecycle/csharp) | [View](https://github.com/OfficeDev/Microsoft-Teams-Samples/tree/main/samples/graph-app-installation-lifecycle/nodejs) | NA |
+
 ## See also
 
 - [teamsApp](teamsapp.md)
