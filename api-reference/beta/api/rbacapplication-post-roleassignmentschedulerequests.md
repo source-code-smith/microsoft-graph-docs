@@ -15,13 +15,10 @@ Namespace: microsoft.graph
 Create a new [unifiedRoleAssignmentScheduleRequest](../resources/unifiedroleassignmentschedulerequest.md) object. This operation allows both admins and users to add, remove, extend, or renew assignments. To run this request, the calling user must have multi-factor authentication (MFA) enforced, and running the query in a session in which they were challenged for MFA. See [Enable per-user Azure AD Multi-Factor Authentication to secure sign-in events](/azure/active-directory/authentication/howto-mfa-userstates).
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission or permissions marked as least privileged for this API. Use a higher privileged permission or permissions [only if your app requires it](/graph/permissions-overview#best-practices-for-using-microsoft-graph-permissions). For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|RoleAssignmentSchedule.ReadWrite.Directory|
-|Delegated (personal Microsoft account)|Not supported|
-|Application|RoleManagement.ReadWrite.Directory|
+<!-- { "blockType": "permissions", "name": "rbacapplication_post_roleassignmentschedulerequests" } -->
+[!INCLUDE [permissions-table](../includes/permissions/rbacapplication-post-roleassignmentschedulerequests-permissions.md)]
 
 ## HTTP request
 

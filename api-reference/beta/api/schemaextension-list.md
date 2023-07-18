@@ -19,14 +19,11 @@ Get a list of [schemaExtension](../resources/schemaextension.md) objects in your
 + Created by other developers from other tenants and marked as `Available`. This is different from other APIs that only return tenant-specific data. Extension data created based on schema extension definitions is tenant-specific and can only be accessed by apps explicitly granted permission. 
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission or permissions marked as least privileged for this API. Use a higher privileged permission or permissions [only if your app requires it](/graph/permissions-overview#best-practices-for-using-microsoft-graph-permissions). For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | User.Read, Application.Read.All   |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Application.Read.All  |
+<!-- { "blockType": "permissions", "name": "schemaextension_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/schemaextension-list-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

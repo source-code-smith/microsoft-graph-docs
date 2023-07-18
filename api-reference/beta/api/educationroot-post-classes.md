@@ -17,13 +17,10 @@ Create a new class. This will also create a universal group. When you use this A
 add features such as assignments and special handling within Microsoft Teams when teams are created using the group. Please note that this API only creates the universal group and does not create a team. Microsoft Teams provides a user interface for teachers to create teams for their own classes using the groups created by this API.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission or permissions marked as least privileged for this API. Use a higher privileged permission or permissions [only if your app requires it](/graph/permissions-overview#best-practices-for-using-microsoft-graph-permissions). For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  Not supported.  |
-|Delegated (personal Microsoft account) |  Not supported.  |
-|Application | EduRoster.ReadWrite.All | 
+<!-- { "blockType": "permissions", "name": "educationroot_post_classes" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationroot-post-classes-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

@@ -15,13 +15,10 @@ Namespace: microsoft.graph
 Retrieve the [accessReviewInstanceDecisionItem](../resources/accessreviewinstancedecisionitem.md) objects for a specific [accessReviewInstance](../resources/accessreviewinstance.md). A list of zero or more accessReviewInstanceDecisionItem objects are returned, including all of their nested properties.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission or permissions marked as least privileged for this API. Use a higher privileged permission or permissions [only if your app requires it](/graph/permissions-overview#best-practices-for-using-microsoft-graph-permissions). For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|AccessReview.Read.All, AccessReview.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|AccessReview.Read.All, AccessReview.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "accessreviewinstance_list_decisions" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accessreviewinstance-list-decisions-permissions.md)]
 
 ## HTTP request
 
