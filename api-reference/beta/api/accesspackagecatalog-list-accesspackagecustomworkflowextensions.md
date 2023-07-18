@@ -82,10 +82,6 @@ GET /identityGovernance/entitlementManagement/accessPackageCatalogs/32efb28c-9a7
 [!INCLUDE [sample-code](../includes/snippets/php/list-accesspackagecustomworkflowextension-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/list-accesspackagecustomworkflowextension-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Python](#tab/python)
 [!INCLUDE [sample-code](../includes/snippets/python/list-accesspackagecustomworkflowextension-python-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
