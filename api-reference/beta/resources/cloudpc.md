@@ -32,6 +32,7 @@ Represents a cloud-managed virtual desktop. This Cloud PC is also enrolled into 
 |[Reprovision](../api/cloudpc-reprovision.md)|None|Reprovision a [cloudPC](../resources/cloudpc.md) object.|
 |[Reprovision remote action](../api/manageddevice-reprovisioncloudpc.md)|None|Reprovision a Cloud PC with an Intune  [managed device](../resources/cloudpc.md) ID.|
 |[Bulk reprovision remote action](../api/manageddevice-bulkreprovisioncloudpc.md)|None|Bulk reprovision a set of Cloud PC devices with Intune managed device IDs.|
+|[Resize remote action](../api/manageddevice-resizecloudpc.md)|None|Upgrade or downgrade an existing Cloud PC to another configuration with new vCPU and storage size through Intune managed device ID.This will be deprecated and switch to use newly introduced resize instead.|
 |[Resize remote action](../api/cloudpc-resize.md)|None|Upgrade or downgrade an existing Cloud PC to another configuration with new vCPU and storage size through Cloud PC ID.|
 |[Start](../api/cloudpc-start.md)|None|Start a specific [cloudPC](../resources/cloudpc.md) for a user. Currently, only Windows 365 Frontline Cloud PCs are supported. |
 |[Stop](../api/cloudpc-stop.md)|None|Stop a specific [cloudPC](../resources/cloudpc.md) for a user. Currently, only Windows 365 Frontline Cloud PCs are supported. |
