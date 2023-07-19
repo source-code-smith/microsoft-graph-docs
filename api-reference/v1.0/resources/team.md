@@ -94,7 +94,7 @@ For a POST request example, see [Request (create team in migration state)](/micr
 |operations|[teamsAsyncOperation](teamsasyncoperation.md) collection| The async operations that ran or are running on this team. | No |
 |photo|[profilePhoto](../resources/profilephoto.md)| The profile photo for the team. | No |
 |[primaryChannel](../api/team-get-primarychannel.md)|[channel](channel.md)| The general channel for the team. | Yes |
-|schedule|[schedule](schedule.md)| The schedule of shifts for this team.|
+|schedule|[schedule](schedule.md)| The schedule of shifts for this team.| No |
 |tags|[teamworkTag](teamworktag.md) collection|The tags associated with the team.| No |
 |template|[teamsTemplate](teamstemplate.md)| The template this team was created from. See [available templates](/MicrosoftTeams/get-started-with-teams-templates). | Yes |
 
