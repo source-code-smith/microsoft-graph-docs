@@ -43,7 +43,7 @@ Inherits from [entity](../resources/entity.md).
 
 <!-- [!INCLUDE [lifecycle-workflows-tasks-table](../includes/identitygovernance-lifecycleworkflows-tasks-table.md)] -->
 
-[!INCLUDE [identitygovernance-lifecycleworkflows-tasks](~/azure_docs/includes/lifecycle-workflows-tasks-table.md)]
+[!INCLUDE [identitygovernance-lifecycleworkflows-tasks](~/../azure_docs/includes/lifecycle-workflows-tasks-table.md)]
 
 ## Relationships
 
