@@ -60,6 +60,8 @@ When detecting a threat, a security provider creates an alert in the system. Mic
 |threatDisplayName|String|The threat associated with this alert.|
 |threatFamilyName|String|Threat family associated with this alert.|
 |title|String|Brief identifying string value describing the alert.|
+|alertPolicyId|String|The Id of the policy that generated the alert, and populated when there is a specific policy that generated the alert, whether configured by a customer or a built in policy.|
+|additionalData|Dictionary|A bag of custom fields that should be part of the alert and will be presented to the user.|
 
 ### alertClassification values 
 
@@ -212,7 +214,9 @@ The following is a JSON representation of the resource.
     {
       "@odata.type": "microsoft.graph.security.alertEvidence"
     }
-  ]
+  ],
+  "alertPolicyId": "String",
+  "additionalData": "Dictionary"
 }
 ```
 

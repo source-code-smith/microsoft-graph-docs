@@ -248,6 +248,11 @@ Content-type: application/json
       "roles": [],
       "tags": []
     }
-  ]
+  ],
+  "alertPolicyId": "277d32aa-2496-43ee-a2b0-f1525b5307e6",
+  "additionalData": {
+    "key1": "value1",
+    "key2": "value2"
+  }
 }
 ```
