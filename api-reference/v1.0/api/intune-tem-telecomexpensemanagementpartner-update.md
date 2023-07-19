@@ -104,10 +104,6 @@ Content-length: 248
 [!INCLUDE [sample-code](../includes/snippets/php/intune-tem-telecomexpensemanagementpartner-update-update-telecomexpensemanagementpartner-php-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
 
-# [PowerShell](#tab/powershell)
-[!INCLUDE [sample-code](../includes/snippets/powershell/intune-tem-telecomexpensemanagementpartner-update-update-telecomexpensemanagementpartner-powershell-snippets.md)]
-[!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
-
 # [Python](#tab/python)
 [!INCLUDE [sample-code](../includes/snippets/python/intune-tem-telecomexpensemanagementpartner-update-update-telecomexpensemanagementpartner-python-snippets.md)]
 [!INCLUDE [sdk-documentation](../includes/snippets/snippets-sdk-documentation-link.md)]
