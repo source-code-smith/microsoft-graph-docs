@@ -672,11 +672,11 @@ items:
                 href: api/profile-delete.md
           - name: Sponsors
             items:
-              - name: Assign sponsors
+              - name: Add sponsor
                 href: api/user-post-sponsors.md
               - name: List sponsors
                 href: api/user-list-sponsors.md
-              - name: Remove sponsors
+              - name: Remove sponsor
                 href: api/user-delete-sponsors.md
           - name: Teamwork and communications
             items:
